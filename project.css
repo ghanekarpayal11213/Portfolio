@@ -1,0 +1,16 @@
+body{
+    background-image: url(right\ pencils.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* color: aliceblue;  */
+    margin-top: 20px;
+
+}
+.btn{
+   background-color:black;
+   box-sizing: border-box;
+   box-shadow: none;
+   height: 40px;
+   width:100px;
+   color: aliceblue;
+}

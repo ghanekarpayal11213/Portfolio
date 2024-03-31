@@ -1,0 +1,45 @@
+
+/* Make sure that padding behaves as expected */
+* {
+    box-sizing:200px;
+    
+    
+   }
+body{
+    background-image: url(ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-size: cover ;
+    
+}
+p{
+    color: aliceblue;
+    margin-left:200px ;
+}
+/* Container for skill bars */
+.container {
+  margin-left: 200px;
+  border: 2px solid white;
+  height: 30px;
+  width: 60%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  
+}
+
+.skills {
+  
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {
+    height:10px; width: 90%; background-color: #ffa726;
+
+} /* Green */
+.css {height: 10px; width: 90%; background-color: #f48fb1;} /* Blue */
+.js {height: 10px; width: 65%; background-color: #ba68c8;} /* Red */
+.mongodb {height: 10px; width: 60%; background-color: #ffff00;} /* Dark Grey */
+.nodejs {height: 10px; width: 60%; background-color: #42a5f5;} /* Green */
+.expressjs {height: 10px; width: 75%; background-color: #f48fb1;} /* Blue */
+.reactjs {height: 10px; width: 60%; background-color:#ffca28} /* Red */
+.python {height: 10px; width: 90%; background-color: #ff5722;} /* Dark Grey */
